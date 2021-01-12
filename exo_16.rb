@@ -7,8 +7,15 @@ y = 0
 while y < nbr 
   y += 1
   if y == 1
-    puts ("|" * y).rjust(25) + "|>"
+    puts ("|" * y).rjust(nbr) + "|>"
     else 
-    puts ("#" * y).rjust(25)
+    puts ("#" * y).rjust(nbr)
 end
 end
+
+#ou
+#while y < nbr
+ #     x = (nbr - y )
+  
+#  puts (vide * x ) + ("#" * y) 
+ # y += 1
